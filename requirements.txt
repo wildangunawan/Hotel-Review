@@ -1,0 +1,8 @@
+tensorflow
+keras
+transformers
+numpy
+PySastrawi
+nlpretext
+streamlit
+firebase_admin
