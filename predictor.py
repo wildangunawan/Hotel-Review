@@ -75,10 +75,11 @@ def encodeText(sentence):
 	encoded_dict = tokenizer.encode_plus(
 					sentence,
 					add_special_tokens = True,
-					max_length = MAX_LEN,
-					pad_to_max_length = True,
-					return_attention_mask = True,
-					return_token_type_ids=False
+                    max_length = MAX_LEN,
+                    truncation = True,
+                    padding = "max_length",
+                    return_attention_mask = True,
+                    return_token_type_ids = False
 	)
 
 	input_ids = [encoded_dict['input_ids']]
