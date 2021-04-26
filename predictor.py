@@ -41,16 +41,8 @@ preprocessor.pipe(filter_non_latin_characters)
 # load model on first launch
 @st.cache(allow_output_mutation=True)
 def load_model():
-	"""
-		this function will only run at first boot
-		so it's fine to remove and redownload the file
-	"""
-
 	# path to file
 	filepath = "model/model.h5"
-
-	# remove old version
-	os.remove(filepath)
 
 	# folder exists?
 	if not os.path.exists('model'):
