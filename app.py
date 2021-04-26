@@ -85,6 +85,6 @@ if user_review != "":
 
 	# check prediction
 	if prediction > 50:
-		st.write(f"YAY! It's a positive review 🥰🥰. We're {round(100-prediction, 3)}% sure it's a positive review")
+		st.write(f"YAY! It's a positive review 🥰🥰. We're {round(prediction, 3)}% sure it's a positive review")
 	else:
-		st.write(f"NOOOO! It's a negative review 😱😱. We're {round(prediction, 3)}% sure it's a negative review")
+		st.write(f"NOOOO! It's a negative review 😱😱. We're {round(100-prediction, 3)}% sure it's a negative review")
