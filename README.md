@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this project I'm trying to deploy a trained model with Streamlit. This model already trained with ~4.000 sentences that is balanced (1:1 ratio) between each class.
+In this project I'm trying to deploy a trained model with Streamlit. This model already trained with ~4.000 sentences that is balanced (1:1 ratio) between each class. Language used for this is Bahasa Indonesia but I used BERT multilingual instead since there may be some English review.
 
 I also published an article on how to implement this in my Medium [here](https://wildangunawan.medium.com).
 
