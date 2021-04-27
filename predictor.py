@@ -18,7 +18,7 @@ GOOGLE_DRIVE_FILE_ID = "1mHf5gAywjFapLXZa_noeC3vW0pviAYhB"
 
 # set maximum length and tokenizer
 MAX_LEN = 50
-tokenizer = BertTokenizer.from_pretrained('indobenchmark/indobert-base-p1')
+tokenizer = BertTokenizer.from_pretrained('indobenchmark/indobert-lite-base-p1')
 
 # stemmer
 stemmer_factory = StemmerFactory()
